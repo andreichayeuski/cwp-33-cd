@@ -24,7 +24,7 @@
       "user": "gxevnydjswfpoq",
       "pass": "1ed4199ce5b4e2ec8ada4bcdbb1a84fa83106baf2a38adcab163f82aaa5d397f",
       "options": {
-        "host": "ec2-184-73-210-189.compute-1.amazonaws.com.compute-1.amazonaws.com",
+        "host": "ec2-184-73-210-189.compute-1.amazonaws.com",
         "port": 5432,
         "dialect": "postgres",
         "define": {
