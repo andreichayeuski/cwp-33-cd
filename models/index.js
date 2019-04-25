@@ -10,8 +10,8 @@ module.exports = () => {
     if (process.env.NODE_ENV !== undefined)
     {
         console.log('production');
-        console.log(config.db['production']);
-        dbConfig = config.db['production'];
+        console.log(config.db.production);
+        dbConfig = config.db.production;
     }
     console.log(dbConfig);
     const options = {
