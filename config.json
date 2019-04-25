@@ -1,0 +1,41 @@
+{
+  "db": {
+    "development": {
+      "name": "cwp-33",
+      "user": "admin_cwp",
+      "pass": "admin_cwp",
+      "port": 1433,
+      "options": {
+        "dialect": "mssql",
+        "host": "ANDREICHAYEUSKI",
+        "instanceName": "MSSQLSERVER",
+        "encrypt": true,
+        "logging": false,
+        "requestTimeout": 30000
+      },
+      "define": {
+        "timestamps": true,
+        "paranoid": true
+      }
+      }
+    },
+    "production": {
+      "name": "d583ic9gudvtl0",
+      "user": "gxevnydjswfpoq",
+      "pass": "1ed4199ce5b4e2ec8ada4bcdbb1a84fa83106baf2a38adcab163f82aaa5d397f",
+      "options": {
+        "host": "ec2-184-73-210-189.compute-1.amazonaws.com.compute-1.amazonaws.com",
+        "port": 5432,
+        "dialect": "postgres",
+        "define": {
+          "timestamps": false,
+          "paranoid": false,
+          "freezeTableName": true
+        },
+        "logging": false,
+        "dialectOptions": {
+          "ssl": true
+        }
+      }
+    }
+  }
