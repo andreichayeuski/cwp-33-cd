@@ -5,7 +5,12 @@ const config = require('../config.json');
 
 module.exports = () => {
     console.log(process.env.NODE_ENV);
-    const dbConfig = config.db[process.env.NODE_ENV || 'development'];
+    let dbConfig = config.db['development'];
+
+    if (process.env.NODE_ENV !== undefined)
+    {
+        dbConfig = config.db[process.env.NODE_ENV];
+    }
     console.log(dbConfig);
     const options = {
         host: dbConfig.options.host,
