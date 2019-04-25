@@ -52,5 +52,6 @@ app.use((error, req, res, next) => {
 });
 
 app.listen(port, function () {
+    console.log("autodeploy");
     console.log(`Server is running on ${port}...`);
 });
