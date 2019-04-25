@@ -17,7 +17,6 @@
         "timestamps": true,
         "paranoid": true
       }
-      }
     },
     "production": {
       "name": "d583ic9gudvtl0",
@@ -39,3 +38,5 @@
       }
     }
   }
+
+}
